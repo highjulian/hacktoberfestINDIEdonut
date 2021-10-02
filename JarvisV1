@@ -19,3 +19,13 @@ def date():
 	speak(date)
 	speak(month)
 	speak(year)
+
+def wishme():
+	speak("Welcome back Sir!")
+	speak("the current time is")
+	time()
+	speak("the current date is ")
+	date()
+	speak("Jarvis at your service Please tell me how can i help you?")
+	 
+wishme()
